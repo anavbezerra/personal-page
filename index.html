@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Configuração básica do site -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Ana Vieira Bezerra</title>
+
+
+    <!-- Área de Estilo CSS -->
+    <style>
+        /* Reset: remove espaçamentos padrão do navegador */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        
+
+        /* Estilo geral do corpo da página */
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f2f5;
+            color: #333;
+        }
+
+        /* Cabeçalho com nome e apresentação */
+        header {
+            background: #8846e5; /* Cor de fundo */
+            color: #fff; /* Cor do texto */
+            padding: 30px 20px; /* Espaçamento interno */
+            text-align: center; /* Centralizar texto */
+        }
+
+        /* Título do cabeçalho */
+        header h1 {
+            font-size: 2em; /* Tamanho da fonte */
+            margin-bottom: 10px; /* Espaço abaixo do título */
+        }
+
+        /* Conteúdo principal */
+        main {
+            max-width: 800px; /* Largura máxima */
+            margin: 30px auto; /* Centraliza na tela */
+            padding: 0 20px; /* Espaçamento lateral */
+        }
+
+        /* Cartões de conteúdo (seções) */
+        .card {
+            background: #fff; /* Fundo branco */
+            padding: 20px;
+            border-radius: 10px; /* Bordas arredondadas */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            margin-bottom: 20px;
+            transition: transform 0.3s; /* Animação */
+        }
+
+        /* Efeito ao passar o mouse no card */
+        .card:hover {
+            transform: translateY(-5px); /* Levanta um pouco o card */
+        }
+
+        /* Títulos das seções */
+        h2 {
+            color: #6e46e5; /* Cor roxa */
+            margin-bottom: 10px;
+        }
+
+        /* Listas sem marcador */
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        /* Itens da lista */
+        li {
+            margin-bottom: 5px;
+        }
+
+        /* Links */
+        a {
+            color: #4F46E5;
+            text-decoration: none; /* Remove sublinhado */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Sublinha ao passar o mouse */
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            font-size: 0.8em;
+            color: #777;
+            margin-top: 40px;
+            padding: 10px;
+        }
+
+        /* Responsivo: se a tela for menor que 600px */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5em; /* Diminui o título */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Ana Maria Vieira</h1>
+        <p>Desenvolvedora em formação | Futura profissional de TI | Florianópolis - SC</p>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+
+        <!-- Seção Sobre Mim -->
+        <section class="card">
+            <h2>Sobre Mim</h2>
+            <p>Sou uma profissional em transição de carreira para a área de Tecnologia, 
+                estudante de Desenvolvimento de Sistemas. Tenho experiência anterior em áreas administrativas e atendimento ao cliente, 
+                com foco em organização e resultados.</p>
+        </section>
+
+        <!-- Seção Habilidades -->
+        <section class="card">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript, SQL, React Native</li>
+                <li>Scrum Fundamentals</li>
+                <li>Atendimento ao cliente e rotinas administrativas</li>
+            </ul>
+        </section>
+
+        <!-- Seção Contato -->
+        <section class="card">
+            <h2>Contato</h2>
+            <p><a href="mailto:ana_m_bezerra@hotmail.com">ana_m_bezerra@hotmail.com</a></p>
+            <p><a href="https://www.linkedin.com/in/anamvb84" target="_blank">LinkedIn</a></p>
+            <p><a href="https://github.com/anavbezerra" target="_blank">GitHub</a></p>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        &copy; 2025 Ana Maria Vieira 
+    </footer>
+
+</body>
+
+</html>
+
+
